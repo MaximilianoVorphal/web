@@ -12,18 +12,18 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Wrench className="h-6 w-6 text-[#f97316]" />
-            <span className="font-bold text-xl text-[#1e293b]">MaquiRent</span>
+            <span className="font-bold text-xl text-[#1e293b]">ArriendaMaquinaria</span>
           </Link>
 
           {/* Navigation Links - Centered */}
           <div className="flex-1 flex justify-center items-center space-x-8">
-            <Link href="/" className="text-[#475569] hover:text-[#f97316] transition-colors">
+            <Link href="/" className="text-black hover:text-white transition-colors">
               Inicio
             </Link>
-            <Link href="#rental" className="text-[#475569] hover:text-[#f97316] transition-colors">
+            <Link href="#rental" className="text-black hover:text-white transition-colors">
               Arriendo
             </Link>
-            <Link href="#sales" className="text-[#475569] hover:text-[#f97316] transition-colors">
+            <Link href="#sales" className="text-black hover:text-white transition-colors">
               Venta
             </Link>
           </div>
