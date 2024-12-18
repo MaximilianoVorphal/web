@@ -6,8 +6,15 @@ import { Textarea } from '@/components/ui/textarea';
 import { Building2, Mail, Phone, Truck } from 'lucide-react';
 import { machines } from '@/data/machines';
 import { useState } from 'react';
+import { getHomeInfo } from '@/components/getHomeInfo'
 
-export function Hero() {
+export const Hero = async () => {
+
+  // BORRAR
+  console.log("iwi")
+  getHomeInfo()
+  console.log("iwi")
+  // BORRAR
 
   const [formData, setFormData] = useState({
     name: '',
